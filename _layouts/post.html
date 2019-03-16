@@ -4,39 +4,39 @@ layout: default
 
 {% comment %}
 
-	Forty by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+  Forty by Pixelarity
+  pixelarity.com | hello@pixelarity.com
+  License: pixelarity.com/license
 
-	Name:
+  Name:
 
-		Blog Post layout
+    Blog Post layout
 
-	Description:
+  Description:
 
-		A layout for individual Blog Posts.
+    A layout for individual Blog Posts.
 
-	Example:
+  Example:
 
-		---
-		layout: post
-		---
+    ---
+    layout: post
+    ---
 
 {% endcomment %}
 
 <div id="main">
-	<div class="inner">
-		<header class="major">
-			<h1>{{ page.title }}</h1>
-			<p>{{ page.date | date: "%B %-d, %Y" }}</p>
-		</header>
+  <div class="inner">
+    <header class="major">
+      <h1>{{ page.title }}</h1>
+      <p>{{ page.date | date: "%B %-d, %Y" }}</p>
+    </header>
 
-		{% if page.image %}
-			<span class="image fit">
-				<img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
-			</span>
-		{% endif %}
+    {% if page.image %}
+      <span class="image fit">
+        <img src="{{ site.baseurl }}{{ page.image }}" alt="{{ page.title }}">
+      </span>
+    {% endif %}
 
-		{{ content }}
-	</div>
+    {{ content }}
+  </div>
 </div>

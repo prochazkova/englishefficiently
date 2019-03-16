@@ -1,34 +1,34 @@
 {% comment %}
 
-	Forty by Pixelarity
-	pixelarity.com | hello@pixelarity.com
-	License: pixelarity.com/license
+  Forty by Pixelarity
+  pixelarity.com | hello@pixelarity.com
+  License: pixelarity.com/license
 
-	Name:
+  Name:
 
-		Header
+    Header
 
-	Description:
+  Description:
 
-		Global site header.
-		Set "header_class" to "alt" to create a "revealing" header.
+    Global site header.
+    Set "header_class" to "alt" to create a "revealing" header.
 
-	Example:
+  Example:
 
-		---
-		header_class: alt
-		---
+    ---
+    header_class: alt
+    ---
 
-		{% include layout/header.html %}
+    {% include layout/header.html %}
 
 {% endcomment %}
 
 <!-- Header -->
-	<header id="header" class="{{ page.header_class }}">
-		<a href="{{ site.baseurl }}/" class="logo">
-			<strong>{{ site.title }}</strong> <span>{{ site.tagline }}</span>
-		</a>
-		<nav>
-			<a href="#menu">Menu</a>
-		</nav>
-	</header>
+  <header id="header" class="{{ page.header_class }}">
+    <a href="{{ site.baseurl }}/" class="logo">
+      <strong>{{ site.title }}</strong> <span>{{ site.tagline }}</span>
+    </a>
+    <nav>
+      <a href="#menu">Menu</a>
+    </nav>
+  </header>
