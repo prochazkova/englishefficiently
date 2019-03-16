@@ -57,51 +57,35 @@ testimonials_r:
 
 ---
 
-{% comment %}
-
-  Forty by Pixelarity
-  pixelarity.com | hello@pixelarity.com
-  License: pixelarity.com/license
-
-  Name:
-
-    Generic page
-
-  Description:
-
-    General purpose page.
-
-{% endcomment %}
-
 <!-- Main -->
-  <div id="main" class="alt">
+<div id="main" class="alt">
 
-    <!-- One -->
-      <section id="one">
-        <div class="inner">
-          <header class="major">
-            <h1>Reference</h1>
-          </header>
-          <span class="image main"><img src="{{ site.baseurl }}/images/pic11.jpg" alt="" /></span>
-          <div class="row">
-          <div class="6u 12u$(small)">
-            {% for testimonial in page.testimonials_l %}
-              <div class="box">
-              <h5>{{ testimonial.name }}</h5>
-              <blockquote>{{ testimonial.text }}</blockquote>
-              </div>
-            {% endfor %}
+  <!-- One -->
+  <section id="one">
+    <div class="inner">
+      <header class="major">
+        <h1>Reference</h1>
+      </header>
+      <span class="image main"><img src="{{ site.baseurl }}/images/pic11.jpg" alt="" /></span>
+      <div class="row">
+      <div class="6u 12u$(small)">
+        {% for testimonial in page.testimonials_l %}
+          <div class="box">
+          <h5>{{ testimonial.name }}</h5>
+          <blockquote>{{ testimonial.text }}</blockquote>
           </div>
-          <div class="6u 12u$(small)">
-            {% for testimonial in page.testimonials_r %}
-              <div class="box">
-              <h5>{{ testimonial.name }}</h5>
-              <blockquote>{{ testimonial.text }}</blockquote>
-              </div>
-            {% endfor %}
+        {% endfor %}
+      </div>
+      <div class="6u 12u$(small)">
+        {% for testimonial in page.testimonials_r %}
+          <div class="box">
+          <h5>{{ testimonial.name }}</h5>
+          <blockquote>{{ testimonial.text }}</blockquote>
           </div>
-          </div>
-        </div>
-      </section>
+        {% endfor %}
+      </div>
+      </div>
+    </div>
+  </section>
 
-  </div>
+</div>
