@@ -1,0 +1,71 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie8.css" /><![endif]-->
+  </head>
+
+  <body>
+      <!-- Sidebar -->
+      <section id="sidebar">
+        <div class="inner">
+          <nav>
+            <ul>
+              <li><a href="#intro">Vítejte</a></li>
+              <li><a href="#one">Who we are</a></li>
+              <li><a href="#two">Reference</a></li>
+              <li><a href="#contact">Kontakt</a></li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+      {{ content }}
+      {% include layout/footer.html %}
+    </div>
+
+    <!-- Scripts -->
+    <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.scrolly.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/jquery.scrollex.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/util.js"></script>
+    <!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/js/ie/respond.min.js"></script><![endif]-->
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+
+    <script>
+      function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+      }
+
+      async function show_more(session) {
+        img = document.getElementById(session+"-img");
+        btn = document.getElementById(session+"-action");
+        spn = document.getElementById(session+"-more");
+
+        btn.style.transition = "opacity 1s";
+        btn.style.opacity = 0;
+
+        img.style.transition = "all 1s ease 0.7s";
+        img.style.width = "0px";
+        img.style.opacity = "0";
+
+        await sleep(1700);
+        
+        btn.parentNode.parentNode.style.display = "none";
+        spn.style.transition = "all 1s ease 0s";
+        spn.style.height = "";
+        spn.style.opacity = 1;
+      }
+    </script>
+
+  </body>
+</html>

@@ -1,0 +1,33 @@
+# Site settings
+title: English Efficiently
+tagline: s Andreou Procházkvou
+description: Uč se anglicky osobně nebo online
+
+# hostname & protocol
+url: "https://prochazkova.github.io"
+# the subpath of your site, e.g. /blog
+baseurl: "/englishefficiently"
+
+# data
+owner: Andrea Procházková
+email: englishefficiently@gmail.com
+phone:
+address: Životského, Brno - Židenice
+
+# links
+facebook: https://www.facebook.com/EnglishEfficiently/
+linkedin: https://www.linkedin.com/in/andrea-procházková-341022115/
+booking: https://learnenglishandczech.as.me/schedule.php
+contact: https://formspree.io/englishefficiently@gmail.com
+
+# Build settings
+markdown: kramdown
+sass:
+  sass_dir: assets/sass
+
+# Plugins
+plugins: ["jekyll-paginate"]
+
+# Pagination
+paginate: 4
+paginate_path: "/englishefficiently/blog/page:num/"

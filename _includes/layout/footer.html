@@ -1,0 +1,76 @@
+<!-- Contact -->
+<section id="contact" class="wrapper style1 fade-up">
+  <div class="inner">
+    <h2>Kontakt</h2>
+    <p>Pokud máš jakýkoliv dotaz, kontaktuj mě, prosím, formulářem níže.<br/>
+    Pokud si přeješ rezervovat (ukázkovou) lekci, klikni prosím
+    <a href="{{ site.booking }}" target="_blank" rel="noopener noreferrer">zde</a>
+    .<br/>
+    Ozvu se Ti, co nejdříve to bude možné.</p>
+    <div class="split style1">
+      <section>
+        <form method="post" action="{{ site.contact }}">
+          <div class="field half first">
+            <label for="name">Jméno</label>
+            <input type="text" name="name" id="name" required=""/>
+          </div>
+          <div class="field half">
+            <label for="surname">Příjmení</label>
+            <input type="text" name="surname" id="surname" required/>
+          </div>
+          <div class="field half first">
+            <label for="phone">Mobil</label>
+            <input type="text" name="phone" id="phone" required/>
+          </div>
+          <div class="field half">
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" required/>
+          </div>
+          <div class="field">
+            <label for="message">Zpráva</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          
+          <ul class="actions">
+            <li><input type="submit" value="Poslat"/></li>
+          </ul>
+        </form>
+      </section>
+      <section>
+        <ul class="contact">
+          <li>
+            <h3>Adresa</h3>
+            <span>{{ site.address }}</span>
+          </li>
+          <li>
+            <h3>Email</h3>
+            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+          </li>
+          <!--
+          <li>
+            <h3>Phone</h3>
+            <span>(+000) 000-000-000</span>
+          </li>
+          -->
+          <li>
+            <h3>Social</h3>
+            <ul class="icons">
+              <li><a href="{{ site.facebook }}" target="_blank" rel="noopener noreferrer" class="fa-facebook"><span class="label">Facebook</span></a></li>
+              <li><a href="{{ site.instagram }}" target="_blank" rel="noopener noreferrer" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
+              <li><a href="mailto:{{ site.email }}" class="fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer id="footer" class="wrapper style1-alt">
+  <div class="inner">
+    <ul class="menu">
+      <li>&copy; {{ site.owner }}. All rights reserved.</li>
+    </ul>
+  </div>
+</footer>
