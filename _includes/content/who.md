@@ -18,9 +18,3 @@ Understanding Language: Learning and Teaching
 V mých letech na univerzitě jsem začla doučovat kamarády a spolužáky a postupně se tak dostala k soukromé výuce. Po několika letech jsem se rozhodla vyjít vstříc všem studentům, kteří nebyli schopni navštěvovat mé lekce osobně a začít s online výukou přes Skype. Tím, že jsem začala více pracovat se studenty různého věku a z různých profesních zaměření, jsem si uvědomila, jak moc potřebujeme ve výuce rozdílné přístupy. Uvědomila jsem si, jak důležitá je má role ve výuce a že aplikováním správých technik se může naučit anglicky opravdu každý.
 
 Pokud jsi připraven/a pustit se do online studia, ﻿﻿rezervuj si lekci a vydej se na zábavnou cestu k angličtině efektivně!
-
-Certifikáty:
-
-<img src="{{ site.baseurl }}/images/crt01.jpg" alt="" />
-<img src="{{ site.baseurl }}/images/crt02.jpg" alt="" />
-<img src="{{ site.baseurl }}/images/crt03.jpg" alt="" />

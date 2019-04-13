@@ -4,9 +4,9 @@ tagline: s Andreou Procházkvou
 description: Uč se anglicky osobně nebo online
 
 # hostname & protocol
-url: "https://prochazkova.github.io"
+url: "https://englishefficiently.com"
 # the subpath of your site, e.g. /blog
-baseurl: "/"
+baseurl: ""
 
 # data
 owner: Andrea Procházková
