@@ -67,9 +67,6 @@ Porovnání balíčků služeb:
   </tbody>
 </table>
 
-
-
-
 Porovnání cen lekcí:
 
 <table>
@@ -102,7 +99,6 @@ Porovnání cen lekcí:
     </tr>
   </tbody>
 </table>
-
 
 Vyber si z balíčků přesně ten, který nejvíce vyhovuje Tvým potřebám, cílům a možnostem a pro rezervaci lekce klikni na tlačítko níže.
 

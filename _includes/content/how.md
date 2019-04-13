@@ -6,3 +6,11 @@ Pokud jsi nejsi jistá/ý, že individuální výuka je pro Tebe bude to pravé,
 
 Upozornění: Osobní lekce probíhají pouze v Brně - Líšni. Za studenty nedojíždím.
 
+<img src="{{ site.baseurl }}/images/cls01.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls02.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls03.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls04.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls05.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls06.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls07.jpg" alt="" />
+<img src="{{ site.baseurl }}/images/cls08.jpg" alt="" />
