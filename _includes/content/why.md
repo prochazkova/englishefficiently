@@ -1,6 +1,3 @@
----
----
-
 ### Proč?
 
 Protože spousta studentů se učí špatně.
