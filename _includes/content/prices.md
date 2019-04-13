@@ -77,7 +77,7 @@ Porovnání cen lekcí:
   <tbody>
     <tr>
       <td>BASIC</td>
-      <td>55 min: 2.100,- Kč<br/>85 min: 3.150,- Kč</td>
+      <td>55 min: 2.100,-Kč<br/>85 min: 3.150,-Kč</td>
       <td>55 min: 4.100,- Kč<br/>85 min: 6.150,- Kč</td>
       <td>55 min: 8.000,- Kč<br/>85 min: 12.000,- Kč</td>
     </tr>
