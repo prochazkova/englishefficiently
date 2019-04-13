@@ -1,6 +1,6 @@
 Pokud jsi se rozhodl/a dostat svou angličtinu na vyšší úroveň co nejrychleji, individuální lekce pro Tebe budou ideální.
 
-Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svých představ a požadavků.)
+Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svých představ a požadavků.
 
 - Každodenní angličtina
 - Konverzace
