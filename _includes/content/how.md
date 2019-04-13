@@ -1,4 +1,4 @@
-Pokud jsi se rozhodl/a dostat svou angličtinu na vyšší úroveň co nejrychleji, individuální lekce pro Tebe budou ideální.
+Učit se můžeš osobně v Brně nebo online přes Skype.
 
 Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svých představ a požadavků.
 
