@@ -18,16 +18,14 @@
   Example:
 
     ---
-    my_spotlights_array:
-    - image: /images/tile1.jpg
-      position: center center
-      url: http://example.com
+    spotlights:
+    - id: spotlight-01
+      image: /images/tile1.jpg
       title: Spotlight title 1
       excerpt: Spotlight content 1.
-      link_text: Custom link text
-    - image: /images/tile2.jpg
-      position: center top
-      url: http://example.com
+      action: Custom link text
+    - id: spotlight-02
+      image: /images/tile2.jpg
       title: Spotlight title 2
       excerpt: Spotlight content 2.
     ---
@@ -53,13 +51,16 @@
 
             <ul class="actions">
               <li>
-                <a id="{{ spotlight.id }}-action" class="button" onClick="show_more('{{ spotlight.id }}')">{{ spotlight.link_text | default: "Read More" }}</a>
+                <a id="{{ spotlight.id }}-action" class="button" onClick="show_more('{{ spotlight.id }}')">{{ spotlight.action | default: "Read More" }}</a>
               </li>
             </ul>
 
             <div id="{{ spotlight.id }}-more" style="opacity: 0; height: 0px;">
-              {% include content/{{ spotlight.id}}.md %}
+              {% capture my_include %}{% include content/{{ spotlight.id}}.md %}{% endcapture %}
+              {{ my_include | markdownify }}
+              {% include components/reservation.html %}
             </div>
+
           </div>
         </div>
       </section>

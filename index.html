@@ -1,5 +1,30 @@
 ---
 layout: default
+
+spotlights:
+- id: why
+  title: Proč se učit se mnou?
+  excerpt: >
+    Chceš se konečně naučit anglicky, že? Ten pocit znám.
+    Spousta lidí touží mít schopnost se domluvit kamkoli
+    přijdou, bohužel se to většině nikdy nepovede.
+  image: /images/pic01.jpg
+  action: Proč a co s tím?
+- id: how
+  title: Individuální lekce
+  excerpt: >
+    Dostaň svou angličtinu na vyšší úroveň co nejrychleji.
+    U nás, v English Efficiently, věříme, že individuální
+    lekce jsou nejlepší způsob, jak toho dosáhnout.
+  image: /images/pic02.jpg
+  action: Jaké služby nabízíme?
+- id: prices
+  title: Balíčky služeb
+  excerpt: >
+    Můžeš si vybrat ze tří balíčků služeb, které nabízím:
+    BASIC, PLUS a FULL. Zároveň můžeš studovat standardních
+    55 minut nebo si lekci můžeš prodloužit až na 85 minut.
+  image: /images/pic03.jpg
 ---
 
 <!-- Intro -->
@@ -15,75 +40,7 @@ layout: default
 </section>
 
 <!-- One -->
-<section id="one" class="wrapper style2 spotlights">
-  <section>
-    <a id="why-img" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-    <div class="content">
-      <div class="inner">
-        <h2>Proč se učit se mnou?</h2>
-        <p>Chceš se konečně naučit anglicky, že? Ten pocit znám. Spousta lidí touží mít schopnost se domluvit kamkoli přijdou, bohužel se to většině nikdy nepovede.</p>
-
-        <ul class="actions">
-          <li>
-            <a id="why-action" class="button" onClick="show_more('why')">Proč a co s tím?</a>
-          </li>
-        </ul>
-
-        <div id="why-more" style="opacity: 0; height: 0px;">
-          <h3>Proč?</h3>
-
-          <p>Protože spousta studentů se učí špatně.</p>
-          <p>Ze školy jsou zvyklí, že učení musí být o sezení v učebně, poslouchání monologu učitele, učení se gramatických pravidel a seznamů slovíček nazpaměť. Toto vše je pak testováno buď před celou třídou nebo v nic nevypovídajících testech.</p>
-          <p>Bohužel, ve stínu tohoto naprogramování se pak učí i nadále.</p>
-          <p>A výsledek? Nula. Přichází frustrace. Po nějaké době se zase odhodlají, s tím, že tentokrát to určitě vyjde a tak pořád dokola. Začínají s angličtinou znovu a znovu. Je to nekončící cyklus, který má mizivé výsledky.</p>
-          <p>Jediným výsledkem tohoto přístupu je snížené sebevědomí, frustrace, strach komunikovat a nedůvěra ve vlastní schopnosti.</p>
-          <p>Zní Ti to povědomně?</p>
-          <p>Jestli ano, nejsi v tom sám/sama…</p>
-
-          <p>Řeknu Ti tři věci o učení angličtiny, které bys měl/a vědět:</p>
-
-          <p><b>1. Neexistuje žádná zázračná cesta, jak se jednoduše naučit anglicky. Vše je o tvrdé práci.</b></p>
-          <p><b>2. Dosažení vysoké úrovně angličtiny zabere mnohem více času, než si myslíš.</b></p>
-          <p><b>3. Tradiční metody nejsou odpověď – žádná další gramatická knížka či skupinový kurz Tě nedovede tam, kam potřebuješ.</b></p>
-
-          <p>Zní to hrozně, že?</p>
-          <p>Neboj, angličtina se dá naučit. A nemusí to být trápení.</p>
-          <p>Na English Efficiently děláme věci jinak. A jsem si jistá, že se Ti to bude líbit.</p>
-          <p>Jakto?</p>
-          <p>Ukážu Ti, co přesně dělat, aby ses konečně posunul/a s angličtinou na další úroveň. Ukážu Ti, jak efektivně kontrolovat své učení a jakým chybám se vyhnout na cestě k lepší angličtině.</p>
-          <p>Jsi připraven/a dát se na cestu učení se angličtiny, která Tě bude bavit?</p>
-          <ul class="actions">
-            <li><a href="https://learnenglishandczech.as.me/schedule.php" target="_blank" rel="noopener noreferrer" class="button special">Rezervovat lekci</a></li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section>
-    <!--<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="center center" /></a>-->
-    <div class="content">
-      <div class="inner">
-        <h2>Individuální lekce</h2>
-        <p>Dostaň svou angličtinu na vyšší úroveň co nejrychleji. U nás, v English Efficiently, věříme, že individuální lekce jsou nejlepší způsob, jak toho dosáhnout.</p>
-        <ul class="actions">
-          <li><a href="#" class="button">Jaké služby nabízíme?</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <section>
-    <!--<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="center center" /></a>-->
-    <div class="content">
-      <div class="inner">
-        <h2>Balíčky služeb</h2>
-        <p>Můžeš si vybrat ze tří balíčků služeb, které nabízím: BASIC, PLUS a FULL. Zároveň můžeš studovat standardních 55 minut nebo si lekci můžeš prodloužit až na 85 minut.</p>
-        <ul class="actions">
-          <li><a href="#" class="button">Learn more</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-</section>
+{% include components/spotlights.html id="one" spotlights=page.spotlights %}
 
 <!-- Two -->
 <section id="two" class="wrapper style3 fade-up">
