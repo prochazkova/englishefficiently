@@ -11,7 +11,7 @@ Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svýc
 - Studium v zahraničí
 - Doučování do školy
 
-&ast; Angličtina pro práci - specifické účely
+\* Angličtina pro práci - specifické účely
 
 Mám zkušenosti s výukou angličtiny pro tyto obory: architektura, bankovnictví, business, elektronika, hotelnictví, IT, lékařství a ošetřovatelství, letectví, logistika, právo, účetnictví, umění a design, strojírenství, zemědělství. Pokud máš zájem o jiný obor, neváhej mi napsat zprávu a informovat se o možnostech výuky.
 
