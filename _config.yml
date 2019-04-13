@@ -6,7 +6,7 @@ description: Uč se anglicky osobně nebo online
 # hostname & protocol
 url: "https://prochazkova.github.io"
 # the subpath of your site, e.g. /blog
-baseurl: "/englishefficiently"
+baseurl: "/"
 
 # data
 owner: Andrea Procházková
