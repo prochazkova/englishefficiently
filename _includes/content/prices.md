@@ -77,21 +77,21 @@ Porovnání cen lekcí:
   <tbody>
     <tr>
       <td>BASIC</td>
-      <td>55 min: 2.100,- Kč<br/>85 min: 3.150,- Kč</td>
-      <td>55 min: 4.100,- Kč<br/>85 min: 6.150,- Kč</td>
-      <td>55 min: 8.000,- Kč<br/>85 min: 12.000,- Kč</td>
+      <td>55 min: 2.350,- Kč<br/>85 min: 3.525,- Kč</td>
+      <td>55 min: 4.600,- Kč<br/>85 min: 6.900,- Kč</td>
+      <td>55 min: 9.000,- Kč<br/>85 min: 13.600,- Kč</td>
     </tr>
     <tr>
       <td>PLUS</td>
-      <td>55 min: 2.250,- Kč<br/>85 min: 3.375,- Kč</td>
-      <td>55 min: 4.400,- Kč<br/>85 min: 6.600,- Kč</td>
-      <td>55 min: 8.600,- Kč<br/>85 min: 12.900,- Kč</td>
+      <td>55 min: 2.500,- Kč<br/>85 min: 3.750,- Kč</td>
+      <td>55 min: 4.900,- Kč<br/>85 min: 7.350,- Kč</td>
+      <td>55 min: 9.600,- Kč<br/>85 min: 14.400,- Kč</td>
     </tr>
     <tr>
       <td>FULL</td>
-      <td>55 min: 3.000,- Kč<br/>85 min: 4.500,- Kč</td>
-      <td>55 min: 5.900,- Kč<br/>85 min: 8.850,- Kč</td>
-      <td>55 min: 11.600,- Kč<br/>85 min: 17.400,- Kč</td>
+      <td>55 min: 3.250,- Kč<br/>85 min: 4.875,- Kč</td>
+      <td>55 min: 6.400,- Kč<br/>85 min: 9.600,- Kč</td>
+      <td>55 min: 12.600,- Kč<br/>85 min: 18.900,- Kč</td>
     </tr>
   </tbody>
 </table>
