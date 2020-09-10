@@ -47,13 +47,11 @@
       }
 
       async function show_more(session) {
-        img = document.getElementById(session+"-img");
-        btn = document.getElementById(session+"-action");
-        spn = document.getElementById(session+"-more");
-
+        var btn = document.getElementById(session+"-action");
         btn.style.transition = "opacity 1s";
         btn.style.opacity = 0;
 
+        var img = document.getElementById(session+"-img");
         img.style.transition = "all 1s ease 0.4s";
         img.style.width = "0px";
         img.style.opacity = "0";
@@ -61,9 +59,19 @@
         await sleep(1400);
 
         btn.parentNode.parentNode.style.display = "none";
+
+        var spn = document.getElementById(session+"-more");
         spn.style.transition = "all 1s ease 0s";
         spn.style.height = "";
         spn.style.opacity = 1;
+
+        var grid = document.getElementById(session+"-grid");
+        grid.style.removeProperty("display");
+
+        var images = document.getElementsByTagName("img");
+        for (let image of images) {
+            image.style.removeProperty("display");
+        }
       }
     </script>
 
