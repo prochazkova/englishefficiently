@@ -10,9 +10,9 @@ Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svýc
       </span>
     </div>
     <div class="4u">
-      <h3>Konverzace</h3>
+      <h3>Běžná konverzace</h3>
       <span class="image fit">
-        <img src="images/cls02.jpg" alt="Konverzace" />
+        <img src="images/cls02.jpg" alt="Běžná konverzace" />
       </span>
     </div>
     <div class="4u$">
@@ -34,9 +34,9 @@ Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svýc
       </span>
     </div>
     <div class="4u$">
-      <h3>Zkoušky</h3>
+      <h3>Mezinárodní zkoušky</h3>
       <span class="image fit">
-        <img src="images/cls07.jpg" alt="Zkoušky" />
+        <img src="images/cls07.jpg" alt="Mezinárodní zkoušky" />
       </span>
     </div>
     <div class="4u">
