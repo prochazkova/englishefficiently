@@ -22,24 +22,18 @@ Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svýc
       </span>
     </div>
     <div class="4u">
-      <h3>Angličtina pro práci*</h3>
-      <span class="image fit">
-        <img src="images/cls04.jpg" alt="Angličtina pro práci*" />
-      </span>
-    </div>
-    <div class="4u">
       <h3>Angličtina pro cestování</h3>
       <span class="image fit">
         <img src="images/cls05.jpg" alt="Angličtina pro cestování" />
       </span>
     </div>
-    <div class="4u$">
+    <div class="4u">
       <h3>Pracovní pohovor</h3>
       <span class="image fit">
         <img src="images/cls06.jpg" alt="Pracovní pohovor" />
       </span>
     </div>
-    <div class="4u">
+    <div class="4u$">
       <h3>Zkoušky</h3>
       <span class="image fit">
         <img src="images/cls07.jpg" alt="Zkoušky" />
@@ -51,12 +45,19 @@ Podívej se, jaké typy lekcí nabízím, a vyber si stukturu lekcí podle svýc
         <img src="images/cls08.jpg" alt="Studium v zahraničí" />
       </span>
     </div>
-    <div class="4u$">
+    <div class="4u">
       <h3>Doučování do školy</h3>
       <span class="image fit">
         <img src="images/cls09.jpg" alt="Doučování do školy" />
       </span>
     </div>
+    <div class="4u$">
+      <h3>Jednoduše pro každého</h3>
+      <span class="image fit">
+        <img src="images/cls04.jpg" alt="Jednoduše pro každého" />
+      </span>
+    </div>
+
 </div>
 <br/>
 
