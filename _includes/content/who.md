@@ -6,15 +6,12 @@ Kurzy a certifikace:<br/>
 CELTA: Certificate in English Language Teaching to Adults<br/>
 Dyslexia and Foreign Language Teaching<br/>
 English in Early Childhood: Language Learning and Development<br/>
-Girls' education: Teaching Strategies That Develop Confidence, Resilience and Collaboration<br/>
-Inside IELTS<br/>
 Learning Online<br/>
 Teaching for Success: Practices for English Language Teaching<br/>
 Teaching Younger Learners and Teens<br/>
-The Mind Is Flat: the Shocking Shallowness of Human Psychology<br/>
 Understanding IELTS: Techniques for English Language Tests<br/>
 Understanding Language: Learning and Teaching
 
 V mých letech na univerzitě jsem začla doučovat kamarády a spolužáky a postupně se tak dostala k soukromé výuce. Po několika letech jsem se rozhodla vyjít vstříc všem studentům, kteří nebyli schopni navštěvovat mé lekce osobně a začít s online výukou přes Skype. Tím, že jsem začala více pracovat se studenty různého věku a z různých profesních zaměření, jsem si uvědomila, jak moc potřebujeme ve výuce rozdílné přístupy. Uvědomila jsem si, jak důležitá je má role ve výuce a že aplikováním správých technik se může naučit anglicky opravdu každý.
 
-Pokud jsi připraven/a pustit se do studia, ﻿﻿rezervuj si lekci a vydej se na zábavnou cestu k angličtině efektivně!
+Pokud jste připraven/a pustit se do studia, ﻿﻿rezervujte si lekci a vydejte se na zábavnou cestu k angličtině efektivně!
