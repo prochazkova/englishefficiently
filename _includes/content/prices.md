@@ -100,6 +100,6 @@ Vyberte si z balíčků přesně ten, který nejvíce vyhovuje Vašim potřebám
 
 Pokud máte kamaráda na přibližně stejné jazykové úrovni a máte podobné cíle, můžete studovat spolu a rozdělit si tak náklady na výuku - lekce pro dva je za stejnou cenu jako 85 minutové lekce*. (*nevztahuje se na balíček FULL)
 
-Pokud si nejste jistá/ý, že individuální výuka je pro Vás bude to pravé, nezoufejte! Rezervujte si ukázovou lekci, která je pro Vás zdarma, a až poté se rozhodněte, jestli do toho půjdete naostro.
+Pokud si nejste jistá/ý, že individuální výuka je pro Vás to pravé, nezoufejte! Rezervujte si ukázovou lekci, která je pro Vás zdarma, a až poté se rozhodněte, jestli do toho půjdete naostro.
 
 S potvrzením rezervace Vás kontaktuji co nejdříve. Poté se domluvíme na podrobnostech.
